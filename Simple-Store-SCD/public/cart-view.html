@@ -1,0 +1,65 @@
+  
+    <!DOCTYPE html> 
+    <html>
+    <head>
+          <link rel="stylesheet" type="text/css" href="css/box-cart.css">
+        <title>Box</title>
+    </head>
+    <body>
+
+    <div class="simpleStore_cart">
+
+        <div class="box-cart">
+            <table class="row-center">
+                <thead><th colspan="7">STATUS PESANAN</th></thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Harga</th>
+                    <th colspan="3">Qty</th>
+                    <th colspan="2">Sub-Total</th>
+
+                </tr>
+                <tr class="row-center">
+                    <td class="item-name">Mocca Original Sunset</td>
+                    <td class="item-price">Rp. 350.000</td>
+                    <td class="item-increment"><a href="javascript:;" class="simpleCart_increment">+</a></td>
+                    <td class="simpleCart_quantity">1</td>
+                    <td class="item-decrement"><a href="javascript:;" class="simpleCart_decrement">-</a></td>
+                    <td class="item-total">Rp. 350.000</td>
+                </tr>
+                <tr>
+                <td colspan="7"><a href="javascript:;" class="simpleCart_empty"><i class="fa fa-trash-o"></i> Hapus Semua</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box-cart">
+
+            <table class="row-center">
+                <tr>
+                    <th>TAX RATE</th>
+                    <th>TAX</th>
+                    <th>SHIPPING</th>
+                    <th>TOTAL PESANAN</th>
+                </tr>
+                <tr>
+                    <td><div class="simpleCart_taxRate"></div></td>
+                    <td><div class="simpleCart_tax"></div></td>
+                    <td> <div class="simpleCart_shipping"></div></td>
+                    <td rowspan="2"><div class="simpleCart_quantity"></div></td>
+                </tr>
+                <tr>
+                <th>Total :</th>
+                <td colspan="2"><div class="simpleCart_grandTotal"></div></td>
+                </tr>
+                <tr>
+                <td colspan="4">
+                <button><i class="fa fa-arrow-right"></i> KONFIRMASI PESANAN</button>
+                </td>
+                </tr>
+            </table>
+
+        </div>
+</div>
+    </body>
+    </html> 

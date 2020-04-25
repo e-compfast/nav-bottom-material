@@ -1,0 +1,89 @@
+ 
+.box-cart {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 0.5rem 0.5rem;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	border: 1px solid #f1f1f1;
+}
+
+.box-cart > button {
+	font-size: 14px;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+
+}
+
+.ck-wp {
+	color: green;
+}
+
+.footer-table{
+
+	padding: 8px;
+	font-size: 12px;
+
+	
+}
+
+.box-cart > .close {
+	float: right;
+	text-decoration: none;
+}
+
+table, th, td {
+	max-width: 100%;
+	border: 1px solid #f1f1f1;
+	border-collapse: collapse;
+	padding: 5px;
+	align-items: center;
+	text-align: center;
+	font-size: 12px;
+}
+
+th {
+	color: #000;
+}
+
+td {
+	color: #234;
+}
+
+a.close {
+	text-decoration: none;
+	font-size: 12px;
+}
+
+td.item-remove > a {
+	text-decoration: none;
+	color: red;
+}
+
+
+.headerRow {
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.header-cart {
+	
+	border-radius: 0;
+	padding: 8px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+
+.simpleCart_grandTotal, .item-total {
+  color : green;
+}
+
+
+.row-center {
+	text-align: center;
+	margin: auto;
+}
+
